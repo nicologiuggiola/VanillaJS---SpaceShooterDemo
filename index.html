@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="player-UI" id="playerui">
+        <div class="player-counter">
+            <div class="text-container">
+                <div class="internal-text">
+                    <div style="width: 312px; height: 40px; border: 4px solid white;">
+                        <div id="hp" style="width: 100%; height: 100%; background-color: green;"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-divider"></div>
+            <div class="text-container">
+                <div class="internal-text"><p id="points">PUNTI:</p></div>
+            </div>
+        </div>
+    </div>
+    <div class="player-gameover" id="gameover">
+        <div class="gameover-container">
+            <p class="gameover-text">GAME OVER</p>
+            <div class="riprova-button" id="riprova">
+                <p>RIPROVA</p>
+            </div>
+        </div>
+    </div>
+    <div class="player-gameover" id="mainmenu">
+        <div class="gameover-container" style="text-align: center;">
+            <p class="gameover-text">CORSO FRONT-END</p>
+            <p class="gameover-text">SPACE SHOOTER</p>
+            <div class="riprova-button" id="play">
+                <p>GIOCA</p>
+            </div>
+        </div>
+    </div>
+    <canvas id="canvas"></canvas>
+</body>
+<script src="game_object.js"></script>
+<script src="projectile.js"></script>
+<script src="baseEnemy.js"></script>
+<script src="asteroidEnemy.js"></script>
+<script src="minibossEnemy.js"></script>
+<script src="player_char.js"></script>
+<script src="app.js"></script>
+</html>

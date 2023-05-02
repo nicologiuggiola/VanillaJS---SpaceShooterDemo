@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body, html{
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    overflow: hidden;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.player-UI{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    flex-direction: column;
+}
+
+.player-gameover{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: none;
+    flex-direction: column;
+}
+
+.player-counter{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    color: white;
+}
+
+.text-container{
+    width: 33%;
+    height: 100%;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.text-divider{
+    width: 34%;
+}
+
+.internal-text{
+    font-size: 40px;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+
+.gameover-container{
+    width: fit-content; 
+    height: fit-content; 
+    margin: auto; 
+    display: flex; 
+    flex-direction: column;
+}
+
+.gameover-text{
+    font-size: 80px; 
+    color: #0077ff;
+}
+
+.riprova-button{
+    width: 200px; 
+    height: 100px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin: auto; 
+    color:#0077ff; 
+    cursor: pointer; 
+    font-size: 50px;
+}
+
+.riprova-button:hover{
+    color: white;
+}
